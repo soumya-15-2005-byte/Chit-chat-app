@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChitChat Harry</title>
+    
+    <!-- 🌟 External Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Socket.io loaded from same server (works locally and on Railway) -->
+    <script defer src="/socket.io/socket.io.js"></script>
+
+    <!-- 🌟 Client-Side JavaScript -->
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+
+    <!-- 🌟 Navigation Bar -->
+    <nav>
+        <img class="logo" src="chat.png" alt="Chat Logo" onerror="this.style.display='none'">
+        <h1>Welcome to CHIT-CHAT App</h1>
+    </nav>
+    
+    <!-- 🌟 Chat Container -->
+    <div class="container" id="chat-container">
+        <!-- Messages will appear here -->
+    </div>
+
+    <!-- 🌟 Input Box -->
+    <div class="input-box">
+        <form id="send-container">
+            <input type="text" id="messageInput" placeholder="Type a message..." aria-label="Type your message">
+            <button id="sendBtn" type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
