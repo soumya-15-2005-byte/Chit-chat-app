@@ -69,7 +69,7 @@ This app is set up for **Railway**: one port, HTTP + WebSockets on the same serv
 2. **New project from GitHub**  
    - Click **New Project**.  
    - Choose **Deploy from GitHub repo**.  
-   - Select **optimus-prime-01/chit-chat** (or your fork).  
+   - Select **soumya-15-2005-byte/chit-chat** (or your fork).  
    - Railway will detect Node.js and use `npm install` and `npm start`.
 
 3. **Generate a public URL**  
@@ -104,5 +104,6 @@ chit-chat/
 ├── package.json
 └── README.md
 ```
+
 
 
